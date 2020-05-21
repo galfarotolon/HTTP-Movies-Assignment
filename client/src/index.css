@@ -75,3 +75,74 @@ body {
   color: red;
   text-align: center;
 }
+
+
+
+.updateForm{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
+form{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin: 1%;
+}
+
+.stars{
+  width: 250px;
+}
+
+.delete-btn {
+ 
+    
+   
+    border: 1px solid grey;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    margin-left: 2%;
+    
+  
+  
+}
+
+
+
+.delete-btn, .update-btn:hover{
+  cursor:pointer;
+}
+
+.update-btn{
+  border: 1px solid grey;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  
+  
+}
+
+.updateDeleteBtn{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.updateDeleteBtn a{
+  text-decoration: none;
+  color: white;
+} 
